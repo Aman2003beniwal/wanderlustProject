@@ -1,11 +1,14 @@
 Project Overview:
+
 Technologies Used:
 Frontend: JavaScript, EJS (Embedded JavaScript for templating)
 Backend: Node.js, Express.js
 Database: MongoDB (via Mongoose ODM)
+
 API: RESTful API for communication between frontend and backend
 NPM Packages: Various Node.js packages for routing, validation, security, etc.
-Middleware: Authentication, authorization, and other middlewares to handle various tasks
+Middleware: Authentication, authorization, and other middlewares to handle various tasks .
+
 Core Features:
 User Authentication:
 Login and Signup pages.
