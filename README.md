@@ -21,7 +21,9 @@ This project highlights the use of middleware for route protection, data validat
 Technologies Used:
 
 Frontend: JavaScript, EJS (Embedded JavaScript for templating)
+
 Backend: Node.js, Express.js
+
 Database: MongoDB (via Mongoose ODM)
 
 API: RESTful API for communication between frontend and backend
