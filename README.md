@@ -19,6 +19,7 @@ Responsive Design: Ensures smooth user experience across devices.
 This project highlights the use of middleware for route protection, data validation, and handling CRUD operations with MongoDB. It also demonstrates RESTful principles to create an efficient and scalable API.
 
 Technologies Used:
+
 Frontend: JavaScript, EJS (Embedded JavaScript for templating)
 Backend: Node.js, Express.js
 Database: MongoDB (via Mongoose ODM)
@@ -27,11 +28,6 @@ API: RESTful API for communication between frontend and backend
 NPM Packages: Various Node.js packages for routing, validation, security, etc.
 Middleware: Authentication, authorization, and other middlewares to handle various tasks .
 
-Core Features:
-User Authentication:
-Login and Signup pages.
-Password hashing 
-JWT (JSON Web Token) or session-based authentication.
 
 CRUD Operations for Listings:
 Create: Page to add a new listing.
@@ -45,5 +41,5 @@ Each review can have a rating system (stars or numeric scale).
 
 Middleware:
 Authentication Middleware: To verify users before accessing certain routes.
-Logging Middleware: For logging requests (e.g., using morgan).
+Logging Middleware: For logging requests .
 Error Handling Middleware: To manage errors gracefully.
