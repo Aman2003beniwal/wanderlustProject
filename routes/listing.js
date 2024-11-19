@@ -12,7 +12,7 @@ const {storage}= require("../cloudConf.js");
 const upload = multer({storage}); 
 
 //// define route.route
-router.route("/")
+router.route("/listing")
     .get(wrapAsync(listingController.index))
     .post(isLoggedIn,upload.single('listing[image]'),validateListing, wrapAsync(listingController.createListing))
  
