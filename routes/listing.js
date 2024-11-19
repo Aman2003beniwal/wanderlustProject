@@ -1,6 +1,6 @@
 ////destructing the listing
 const express = require("express");
-const router = express.Router();
+const router = express.Router("");
 
 const wrapAsync = require("../utlis/wrapAsync.js");
 const Listing = require("../models/listing.js");
@@ -12,7 +12,7 @@ const {storage}= require("../cloudConf.js");
 const upload = multer({storage}); 
 
 //// define route.route
-router.route("/listing")
+router.route("/")
     .get(wrapAsync(listingController.index))
     .post(isLoggedIn,upload.single('listing[image]'),validateListing, wrapAsync(listingController.createListing))
  
